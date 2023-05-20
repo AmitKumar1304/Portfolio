@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio-Easy to access</title>
+  <script src="https://kit.fontawesome.com/ebf4d6273c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div id="container">
+      <nav>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="sidebar  fa-solid fa-bars" onclick="openmenu()"></i>
+        <img src="img/logo-b.jpg" class="logo">
+      </nav>
+      <div class="container-text">
+        <p>Front-End Developer</p>
+        <h1>Hi, I'm<span> Amit Kumar</span><br>from India</h1>
+      </div>
+    </div>
+  </div>
+
+  <!---------------about-------------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <h1 class="sub-title">About me</h1>
+          <h2>I build things for the web.</h2>
+          <p class="sub-para">I'm a web developer and programmer living in Bihar, India. I make web applications,
+            usually with
+            JavaScript. Currently, I'm focused on building web applications using ReactJs.
+            <br> <br>
+            I'm passionate about cutting-edge, pixel-perfect, beautiful interfaces and intuitively implemented UX.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skils')">Skills</p>
+            <p class="tab-links" onclick="opentab('certification')">Certification</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+
+          </div>
+          <div class="tab-contents active-tab" id="skils">
+            <ul>
+              <li><span>Web Development</span><br>Web app Development.</li>
+              <li><span>UI?UX</span><br>Designing Web/App interfaces.</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="certification">
+            <ul>
+              <li><span>DevTown</span><br>Bootcamp on Build app using HTML, CSS & JavaScript.</li>
+              <li><span>Microsoft</span><br>Virtual internship program.</li>
+              <li><span>Google & Microsoft</span><br>Bootcamp on Authencation server using MongoDB and NodeJs.</li>
+              <li><span>Infosys Springboard</span><br>Java Course Completion.</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2019-2022</span><br>MCA from Patna University.</li>
+              <li><span>2016-2019</span><br>BCA from LNMI Patna.</li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="about-col-2">
+          <img src="img/Img2.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- -------------Services------------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title" id="my-services">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-sharp fa-solid fa-code fa-bounce"></i>
+          <h2>Web Development</h2>
+          <p>I am professional developer for the designing and construction of websites. My speciality is Front-End
+            design using HTML, CSS, JavaScript.
+          </p>
+          <a href="img/pexels-tranmautritam-69432.jpg">learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-uikit fa-flip"></i>
+          <h2>UI/UX Design</h2>
+          <p>UI/UX design is all about controlling how users interat with digtals products and services. Most often,
+            this means things like websites and mobile apps.</p>
+          <a href="img/pexels-designecologist-1779487.jpg">learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store fa-beat-fade"></i>
+          <h2>App Design</h2>
+          <p>Designing app on modern and popular library of JavaScript. Comming days everybody wants new technology,
+            this
+            seems too good.</p>
+          <a href="img/pexels-photomix-company-230544.jpg">learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-------------------Portfolio------------------------>
+
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title" id="sub-work">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="img/Screenshot1.png">
+          <div class="layer">
+            <h3>Music App</h3>
+            <p>The app have some amount songs and features. For more details, Git link given below.</p>
+            <a href="https://github.com/AmitKumar1304/Spotify-Clone"><i
+                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="img/Screenshot4.png">
+          <div class="layer">
+            <h3>Ecommerce App</h3>
+            <p>The app provided platform for purchasing and selling products. For more details, Git link given below.
+            </p>
+            <a href="https://github.com/AmitKumar1304/Ecommerce-Website-Flipkart-Clone"><i
+                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="img/Screenshot2png.png">
+          <div class="layer">
+            <h3>Education App</h3>
+            <p>The app connects you to education page for related queries. For more details, Git link given below.</p>
+            <a href="https://github.com/AmitKumar1304/Resposive-Frontened-Website"><i
+                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/AmitKumar1304?tab=repositories" class="btn btn-see">See more</a>
+    </div>
+  </div>
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fas fa-solid fa-paper-plane"></i>sunnysingh.sk1234@gmail.com</p>
+          <p><i class="fas fa-phone-square-alt"></i>+91-7004264893</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/profile.php?id=100006544953387"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/sun_sing09/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/amit-09-kumar"><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+          </div>
+          <a href="img/Amit CV-R.pdf" download class="btn btn1">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="text" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"> </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright &#169 Amit.<i class="fa-solid fa-heart"></i> Made with by Own Experience.</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
